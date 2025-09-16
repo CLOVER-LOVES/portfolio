@@ -1,10 +1,12 @@
-# Anshul's Portfolio Website
+# Portfolio Website
 
 A modern single-page portfolio built with React and Vite to showcase my skills, featured projects, and ways to connect. The site blends smooth motion effects, glassmorphism-inspired UI, and responsive typography for a polished presentation on any device.
 
 ## Live Demo
 - Website: [rajpuohitanshu.in](https://rajpurohitanshu.in/)
-![Portfolio Preview](C:\WEB\portfolio\docs\portfolio-preview.gif).
+
+![Portfolio Preview](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2F4bWJ0YTZsMmw5NnE2MGpwaHplcGJsdW5kNG9wMGUzdGJ0eDlzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JdTkHW1KZPdvdS0/giphy.gif).
+
 ## Highlights
 - Smooth scrolling, intro overlay, and micro-interactions that keep the experience dynamic.
 - Sections for About, Skills, Projects, Social Media, and Contact so visitors learn everything in one place.
@@ -34,7 +36,7 @@ yarn install
 # start local dev server
 yarn dev
 
-# build for production
+# build for production]
 yarn build
 ```
 
@@ -54,3 +56,5 @@ If you have feedback, collaboration ideas, or opportunities, feel free to reach 
 - LinkedIn: https://www.linkedin.com/in/anshumaan-rajpurohit/
 
 Thanks for visiting the repo - enjoy exploring the code and the live site!
+
+![Live now](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhmN3dvaWxsOHRoMnJmY3VyN2kzNGhhbnhldzlnOXFoc252c3N0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsKpGL0CkYXZp1YsKp/giphy.gif).
