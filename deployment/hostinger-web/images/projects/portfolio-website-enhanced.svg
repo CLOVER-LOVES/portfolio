@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#415A48"/>
+  <rect x="50" y="50" width="700" height="300" fill="#333333" rx="10" ry="10"/>
+  
+  <!-- Browser Window -->
+  <rect x="100" y="80" width="600" height="40" fill="#77A664" rx="5" ry="5"/>
+  
+  <!-- Browser Controls -->
+  <circle cx="120" cy="100" r="8" fill="#D4C281"/>
+  <circle cx="145" cy="100" r="8" fill="#A3AB9A"/>
+  <circle cx="170" cy="100" r="8" fill="#FBFBFB" opacity="0.7"/>
+  
+  <!-- URL Bar -->
+  <rect x="200" y="90" width="400" height="20" fill="#222222" rx="5" ry="5"/>
+  <text x="400" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#FBFBFB">anshumaanrajpurohit.com</text>
+  
+  <!-- Website Content -->
+  <rect x="100" y="120" width="600" height="200" fill="#222222"/>
+  
+  <!-- Navigation Menu -->
+  <rect x="100" y="120" width="600" height="40" fill="#333333"/>
+  <text x="150" y="145" font-family="Arial" font-size="14" fill="#FBFBFB">Home</text>
+  <text x="220" y="145" font-family="Arial" font-size="14" fill="#D4C281">About</text>
+  <text x="290" y="145" font-family="Arial" font-size="14" fill="#FBFBFB">Projects</text>
+  <text x="370" y="145" font-family="Arial" font-size="14" fill="#FBFBFB">Skills</text>
+  <text x="430" y="145" font-family="Arial" font-size="14" fill="#FBFBFB">Contact</text>
+  
+  <!-- Hero Section -->
+  <rect x="120" y="170" width="560" height="100" fill="#333333" rx="5" ry="5"/>
+  <text x="400" y="200" font-family="Arial" font-size="20" text-anchor="middle" fill="#FBFBFB">Anshumaan Rajpurohit</text>
+  <text x="400" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#D4C281">AI/ML Developer & UI/UX Designer</text>
+  <rect x="320" y="245" width="160" height="15" fill="#77A664" rx="7.5" ry="7.5"/>
+  
+  <!-- Project Cards -->
+  <rect x="120" y="280" width="170" height="30" fill="#444444" rx="5" ry="5"/>
+  <rect x="305" y="280" width="170" height="30" fill="#444444" rx="5" ry="5"/>
+  <rect x="490" y="280" width="170" height="30" fill="#444444" rx="5" ry="5"/>
+  
+  <!-- Custom Cursor -->
+  <circle cx="500" cy="200" r="5" fill="#D4C281"/>
+  <circle cx="500" cy="200" r="15" fill="none" stroke="#D4C281" stroke-width="1"/>
+  
+  <!-- Responsive Design Indicators -->
+  <rect x="650" y="130" width="30" height="50" fill="#A3AB9A" opacity="0.5" rx="3" ry="3"/>
+  <rect x="650" y="190" width="40" height="30" fill="#A3AB9A" opacity="0.5" rx="3" ry="3"/>
+  <rect x="650" y="230" width="20" height="40" fill="#A3AB9A" opacity="0.5" rx="3" ry="3"/>
+  
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="#FBFBFB">Personal Portfolio Website</text>
+</svg>

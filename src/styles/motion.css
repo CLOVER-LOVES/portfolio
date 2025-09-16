@@ -1,0 +1,40 @@
+/* Global motion tokens and helpers for smooth transitions */
+
+:root {
+  /* Easing */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* Smooth ease-out */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1); /* Material-like */
+
+  /* Durations */
+  --duration-xxs: 120ms;
+  --duration-xs: 180ms;
+  --duration-sm: 240ms;
+  --duration-md: 360ms;
+  --duration-lg: 520ms;
+  --duration-xl: 720ms;
+}
+
+/* Utility classes */
+.will-change-transform {
+  will-change: transform, opacity, filter;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.smooth-transition {
+  transition: transform var(--duration-sm) var(--ease-out),
+              opacity var(--duration-sm) var(--ease-out),
+              filter var(--duration-sm) var(--ease-out),
+              box-shadow var(--duration-sm) var(--ease-out);
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

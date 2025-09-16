@@ -1,0 +1,32 @@
+/* Scientist Font */
+@font-face {
+  font-family: 'Scientist';
+  src: url('https://fonts.cdnfonts.com/s/16376/Scientist.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Scientist';
+  src: url('https://fonts.cdnfonts.com/s/16376/ScientistBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Scientist';
+  src: url('https://fonts.cdnfonts.com/s/16376/ScientistItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Scientist';
+  src: url('https://fonts.cdnfonts.com/s/16376/ScientistBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

@@ -1,0 +1,71 @@
+/* Responsive Typography Enhancements */
+p, .body-text {
+  font-size: clamp(0.95rem, 0.9rem + 0.25vw, 1.1rem); /* Fluid typography */
+  line-height: var(--lh-normal);
+  margin-bottom: var(--space-paragraph);
+  max-width: 70ch; /* Optimal reading width */
+}
+
+h1 {
+  font-size: clamp(2.5rem, 2rem + 2.5vw, 4rem); /* Fluid typography */
+  line-height: var(--lh-tight);
+  font-weight: var(--fw-bold);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 1.8rem + 1vw, 3rem); /* Fluid typography */
+  line-height: var(--lh-tight);
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 2.25rem); /* Fluid typography */
+  line-height: var(--lh-tight);
+  font-weight: var(--fw-semibold);
+  margin-bottom: 0.6rem;
+}
+
+h4 {
+  font-size: clamp(1.25rem, 1.1rem + 0.75vw, 1.75rem); /* Fluid typography */
+  line-height: var(--lh-tight);
+  font-weight: var(--fw-semibold);
+  margin-bottom: 0.5rem;
+}
+
+h5, h6 {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-tight);
+  font-weight: var(--fw-medium);
+  margin-bottom: 0.4rem;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 768px) {
+  p, .body-text {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  /* Adjust spacing for better mobile reading */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Ensure text remains readable on very small screens */
+@media (max-width: 480px) {
+  p, .body-text {
+    font-size: 16px; /* Ensure minimum readable size */
+  }
+
+  /* Slightly reduce heading sizes on very small screens */
+  h1 {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+}

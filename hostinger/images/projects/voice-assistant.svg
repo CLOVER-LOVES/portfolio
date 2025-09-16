@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#415A48"/>
+  <rect x="50" y="50" width="700" height="300" fill="#333333" rx="10" ry="10"/>
+  
+  <!-- Microphone -->
+  <circle cx="400" cy="150" r="60" fill="#77A664" opacity="0.8"/>
+  <rect x="385" y="80" width="30" height="20" fill="#77A664"/>
+  <rect x="375" y="60" width="50" height="20" fill="#77A664" rx="5" ry="5"/>
+  
+  <!-- Sound Waves -->
+  <path d="M320,150 C310,120 310,180 320,150" stroke="#D4C281" stroke-width="3" fill="none"/>
+  <path d="M300,150 C280,100 280,200 300,150" stroke="#D4C281" stroke-width="3" fill="none"/>
+  <path d="M280,150 C250,80 250,220 280,150" stroke="#D4C281" stroke-width="3" fill="none"/>
+  
+  <path d="M480,150 C490,120 490,180 480,150" stroke="#D4C281" stroke-width="3" fill="none"/>
+  <path d="M500,150 C520,100 520,200 500,150" stroke="#D4C281" stroke-width="3" fill="none"/>
+  <path d="M520,150 C550,80 550,220 520,150" stroke="#D4C281" stroke-width="3" fill="none"/>
+  
+  <!-- Voice Commands -->
+  <rect x="200" y="240" width="400" height="40" fill="#A3AB9A" opacity="0.3" rx="20" ry="20"/>
+  <text x="400" y="265" font-family="Arial" font-size="16" text-anchor="middle" fill="#FBFBFB">"Hey Clover, what's the weather today?"</text>
+  
+  <!-- Wake Word Indicator -->
+  <circle cx="150" cy="150" r="30" fill="#D4C281" opacity="0.6"/>
+  <text x="150" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">WAKE</text>
+  
+  <!-- GPT Integration -->
+  <circle cx="650" cy="150" r="30" fill="#D4C281" opacity="0.6"/>
+  <text x="650" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">GPT</text>
+  
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="#FBFBFB">Voice Assistant (Hey Clover)</text>
+</svg>

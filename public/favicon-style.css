@@ -1,0 +1,13 @@
+/* Favicon styling */
+link[rel="icon"] {
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+
+/* This ensures the favicon appears circular in browser tabs */
+@media screen and (min-width: 0px) {
+  link[rel="icon"] {
+    border-radius: 50%;
+  }
+}

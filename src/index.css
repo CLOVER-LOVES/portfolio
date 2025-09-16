@@ -1,0 +1,269 @@
+:root {
+  /* Typography */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+  --font-designer: 'Manrope', 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  /* Logo Typography */
+    --font-logo-primary: 'Dancing Script', cursive;
+    --font-body: 'Inter', sans-serif;
+    --primary: #8BC34A;
+    --accent: #A4D070;
+    --accent-light: #C2E184;
+    --fs-body-sm: 1rem;
+
+  /* Font sizes - using clamp for responsive scaling */
+  --fs-display: clamp(2.5rem, 5vw, 4rem);     /* Hero headings */
+  --fs-h1: clamp(2rem, 4vw, 3rem);            /* Section headings */
+  --fs-h2: clamp(1.5rem, 3vw, 2rem);          /* Sub-headings */
+  --fs-h3: clamp(1.25rem, 2vw, 1.5rem);       /* Card headings */
+  --fs-h4: clamp(1.1rem, 1.5vw, 1.25rem);     /* Small headings */
+  --fs-body-lg: clamp(1.1rem, 1.2vw, 1.2rem); /* Large body text */
+  --fs-body: clamp(0.95rem, 1vw, 1.05rem);    /* Regular body text */
+  --fs-body-sm: clamp(0.85rem, 0.9vw, 0.95rem); /* Small body text */
+  --fs-caption: clamp(0.7rem, 0.8vw, 0.8rem);   /* Captions, footnotes */
+
+  /* Line heights */
+  --lh-tight: 1.2;      /* Headings */
+  --lh-normal: 1.5;     /* Body text */
+  --lh-loose: 1.7;      /* Paragraphs */
+
+  /* Font weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Letter spacing */
+  --ls-tight: -0.015em;  /* Headings tuned for Space Grotesk */
+  --ls-normal: 0;         /* Body */
+  --ls-wide: 0.05em;      /* Small caps, buttons */
+  --ls-wider: 0.1em;      /* All caps text */
+
+  /* Paragraph spacing */
+  --space-paragraph: 1.5rem;
+
+  /* Color scheme - forced dark mode only */
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121212; /* Dark background */
+
+  /* New color palette */
+  --primary: #77A664; /* Medium Green */
+  --primary-light: #8EB97C;
+  --primary-dark: #5E8A4C;
+  --accent: #D4C281; /* Muted Gold/Tan */
+  --accent-light: #E2D49F;
+  --accent-dark: #B9A764;
+  /* Brand gradient + glow for Code × Design identity */
+  --brand-gradient: linear-gradient(90deg, #6D5FFD 0%, #6E9EFF 35%, #41EAD4 100%);
+  --brand-glow: 0 0 25px rgba(109, 95, 253, 0.25), 0 0 45px rgba(65, 234, 212, 0.15);
+  --text: #FBFBFB; /* Off-white */
+  --text-secondary: #A3AB9A; /* Sage Green */
+  --background: #121212; /* Dark background */
+  --background-light: #1e1e1e;
+  --background-dark: #0a0a0a;
+  --highlight: #415A48; /* Dark Green */
+
+  /* System properties */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-body);
+  line-height: var(--lh-normal);
+  font-weight: var(--fw-regular);
+}
+
+/* Base Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  line-height: var(--lh-tight);
+  margin-top: 0;
+  color: var(--text);
+  letter-spacing: var(--ls-tight);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-semibold);
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-medium);
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-medium);
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: var(--space-paragraph);
+  line-height: var(--lh-loose);
+  max-width: 70ch; /* Optimal reading length */
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+small, .text-small {
+  font-size: var(--fs-body-sm);
+}
+
+.text-large {
+  font-size: var(--fs-body-lg);
+}
+
+.caption {
+  font-size: var(--fs-caption);
+  color: var(--text-secondary);
+}
+
+code, pre, .code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* Link styles */
+a {
+  font-weight: var(--fw-medium);
+  color: var(--accent);
+  text-decoration: none;
+  transition: all var(--duration-xs) var(--ease-out);
+  position: relative;
+}
+
+a:hover {
+  color: var(--accent-light);
+  transform: translateY(-2px);
+  text-shadow: 0 2px 10px rgba(0, 188, 212, 0.3);
+}
+
+a:active {
+  transform: translateY(1px);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Typography Utility Classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: var(--ls-wider);
+}
+
+.text-capitalize { text-transform: capitalize; }
+
+.text-primary { color: var(--primary); }
+.text-accent { color: var(--accent); }
+.text-light { color: var(--text); }
+.text-muted { color: var(--text-secondary); }
+
+.fw-light { font-weight: var(--fw-light); }
+.fw-regular { font-weight: var(--fw-regular); }
+.fw-medium { font-weight: var(--fw-medium); }
+.fw-semibold { font-weight: var(--fw-semibold); }
+.fw-bold { font-weight: var(--fw-bold); }
+
+.font-heading { font-family: var(--font-heading); }
+.font-body { font-family: var(--font-body); }
+.font-mono { font-family: var(--font-mono); }
+
+.display { font-size: var(--fs-display); }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Button styles with updated typography */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-medium);
+  font-family: var(--font-body);
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: all var(--duration-sm) var(--ease-out);
+  letter-spacing: var(--ls-wide);
+}
+
+button:hover {
+  border-color: var(--primary);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Dark mode is forced for all users */
+
+/* Enhanced Responsive Typography */
+@media (max-width: 768px) {
+  :root {
+    /* Slightly adjusted line heights for better readability on small screens */
+    --lh-normal: 1.6;
+    --lh-loose: 1.8;
+
+    /* Increase letter spacing slightly for better readability on small screens */
+    --ls-normal: 0.01em;
+  }
+
+  /* Ensure adequate spacing between paragraphs on mobile */
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  /* Ensure buttons are easily tappable on mobile */
+  .btn {
+    padding: 0.8rem 1.2rem;
+    min-height: 44px; /* Minimum touch target size */
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  :root {
+    /* Further adjustments for very small screens */
+    --space-paragraph: 1.2rem;
+  }
+
+  /* Ensure text doesn't get too small on tiny screens */
+  body {
+    font-size: 16px; /* Set a minimum base font size */
+  }
+}

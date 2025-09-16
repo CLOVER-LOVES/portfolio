@@ -1,0 +1,101 @@
+/* Parallax Scrolling Effects */
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-background {
+  transition: transform var(--duration-xxs) var(--ease-out);
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Parallax section styles */
+.parallax-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-about {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-skills {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-projects {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-contact {
+  position: relative;
+  overflow: hidden;
+}
+
+/* SVG Parallax Layers */
+.parallax-svg-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+.parallax-layer-1,
+.parallax-layer-2,
+.parallax-layer-3 {
+  transition: transform var(--duration-xxs) var(--ease-out);
+  will-change: transform;
+}
+
+/* Custom layer styles */
+.hero-parallax-layers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.about-parallax-layers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.projects-svg-layers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Reduce parallax effect on mobile for better performance */
+  .parallax-background {
+    transform: none !important;
+  }
+}
+
+/* Respect reduced motion: disable parallax transforms */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-background,
+  .parallax-layer-1,
+  .parallax-layer-2,
+  .parallax-layer-3 {
+    transform: none !important;
+    transition: none !important;
+  }
+}

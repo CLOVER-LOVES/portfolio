@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#415A48"/>
+  <rect x="50" y="50" width="700" height="300" fill="#333333" rx="10" ry="10"/>
+  
+  <!-- Neural Network Representation -->
+  <!-- Input Layer -->
+  <circle cx="150" cy="120" r="15" fill="#77A664"/>
+  <circle cx="150" cy="170" r="15" fill="#77A664"/>
+  <circle cx="150" cy="220" r="15" fill="#77A664"/>
+  <circle cx="150" cy="270" r="15" fill="#77A664"/>
+  
+  <!-- Hidden Layer 1 -->
+  <circle cx="300" cy="100" r="15" fill="#D4C281"/>
+  <circle cx="300" cy="150" r="15" fill="#D4C281"/>
+  <circle cx="300" cy="200" r="15" fill="#D4C281"/>
+  <circle cx="300" cy="250" r="15" fill="#D4C281"/>
+  <circle cx="300" cy="300" r="15" fill="#D4C281"/>
+  
+  <!-- Hidden Layer 2 -->
+  <circle cx="450" cy="120" r="15" fill="#D4C281"/>
+  <circle cx="450" cy="170" r="15" fill="#D4C281"/>
+  <circle cx="450" cy="220" r="15" fill="#D4C281"/>
+  <circle cx="450" cy="270" r="15" fill="#D4C281"/>
+  
+  <!-- Output Layer -->
+  <circle cx="600" cy="150" r="15" fill="#A3AB9A"/>
+  <circle cx="600" cy="200" r="15" fill="#A3AB9A"/>
+  <circle cx="600" cy="250" r="15" fill="#A3AB9A"/>
+  
+  <!-- Connections -->
+  <!-- Input to Hidden 1 -->
+  <line x1="165" y1="120" x2="285" y2="100" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="120" x2="285" y2="150" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="120" x2="285" y2="200" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="120" x2="285" y2="250" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="120" x2="285" y2="300" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  
+  <line x1="165" y1="170" x2="285" y2="100" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="170" x2="285" y2="150" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="170" x2="285" y2="200" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="170" x2="285" y2="250" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="165" y1="170" x2="285" y2="300" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Hidden 1 to Hidden 2 -->
+  <line x1="315" y1="100" x2="435" y2="120" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="315" y1="100" x2="435" y2="170" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="315" y1="100" x2="435" y2="220" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="315" y1="100" x2="435" y2="270" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Hidden 2 to Output -->
+  <line x1="465" y1="120" x2="585" y2="150" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="465" y1="120" x2="585" y2="200" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  <line x1="465" y1="120" x2="585" y2="250" stroke="#FBFBFB" stroke-width="1" opacity="0.3"/>
+  
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="#FBFBFB">AI Image Classification Model</text>
+</svg>

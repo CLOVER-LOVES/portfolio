@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.15">
+        <!-- Neural Network Nodes -->
+        <circle fill="#9C27B0" cx="200" cy="150" r="8"></circle>
+        <circle fill="#9C27B0" cx="200" cy="250" r="8"></circle>
+        <circle fill="#9C27B0" cx="200" cy="350" r="8"></circle>
+        <circle fill="#9C27B0" cx="200" cy="450" r="8"></circle>
+        <circle fill="#9C27B0" cx="200" cy="550" r="8"></circle>
+        
+        <circle fill="#00BCD4" cx="400" cy="200" r="8"></circle>
+        <circle fill="#00BCD4" cx="400" cy="300" r="8"></circle>
+        <circle fill="#00BCD4" cx="400" cy="400" r="8"></circle>
+        <circle fill="#00BCD4" cx="400" cy="500" r="8"></circle>
+        
+        <circle fill="#9C27B0" cx="600" cy="250" r="8"></circle>
+        <circle fill="#9C27B0" cx="600" cy="350" r="8"></circle>
+        <circle fill="#9C27B0" cx="600" cy="450" r="8"></circle>
+        
+        <!-- Neural Network Connections - Layer 1 to Layer 2 -->
+        <path d="M208,150 L392,200" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,150 L392,300" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,150 L392,400" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,150 L392,500" stroke="#9C27B0" stroke-width="1"></path>
+        
+        <path d="M208,250 L392,200" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,250 L392,300" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,250 L392,400" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,250 L392,500" stroke="#9C27B0" stroke-width="1"></path>
+        
+        <path d="M208,350 L392,200" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,350 L392,300" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,350 L392,400" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,350 L392,500" stroke="#9C27B0" stroke-width="1"></path>
+        
+        <path d="M208,450 L392,200" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,450 L392,300" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,450 L392,400" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,450 L392,500" stroke="#9C27B0" stroke-width="1"></path>
+        
+        <path d="M208,550 L392,200" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,550 L392,300" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,550 L392,400" stroke="#9C27B0" stroke-width="1"></path>
+        <path d="M208,550 L392,500" stroke="#9C27B0" stroke-width="1"></path>
+        
+        <!-- Neural Network Connections - Layer 2 to Layer 3 -->
+        <path d="M408,200 L592,250" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,200 L592,350" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,200 L592,450" stroke="#00BCD4" stroke-width="1"></path>
+        
+        <path d="M408,300 L592,250" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,300 L592,350" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,300 L592,450" stroke="#00BCD4" stroke-width="1"></path>
+        
+        <path d="M408,400 L592,250" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,400 L592,350" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,400 L592,450" stroke="#00BCD4" stroke-width="1"></path>
+        
+        <path d="M408,500 L592,250" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,500 L592,350" stroke="#00BCD4" stroke-width="1"></path>
+        <path d="M408,500 L592,450" stroke="#00BCD4" stroke-width="1"></path>
+    </g>
+</svg>

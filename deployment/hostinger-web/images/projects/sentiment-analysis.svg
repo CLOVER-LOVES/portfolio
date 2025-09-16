@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#415A48"/>
+  <rect x="50" y="50" width="700" height="300" fill="#333333" rx="10" ry="10"/>
+  
+  <!-- Sentiment Analysis Visualization -->
+  <path d="M100,250 C150,180 200,280 250,200 C300,150 350,220 400,180 C450,120 500,220 550,150 C600,100 650,180 700,120" 
+        stroke="#77A664" stroke-width="3" fill="none"/>
+  
+  <path d="M100,300 C150,280 200,320 250,270 C300,290 350,250 400,280 C450,260 500,300 550,270 C600,290 650,250 700,280" 
+        stroke="#D4C281" stroke-width="3" fill="none"/>
+  
+  <!-- Sentiment Icons -->
+  <circle cx="200" cy="120" r="30" fill="#77A664"/>
+  <path d="M185,115 L195,125 M205,115 L215,125" stroke="#333" stroke-width="2"/>
+  <path d="M190,135 C190,135 200,145 210,135" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <circle cx="600" cy="180" r="30" fill="#D4C281"/>
+  <path d="M585,175 L595,185 M605,175 L615,185" stroke="#333" stroke-width="2"/>
+  <path d="M590,195 C590,195 600,185 610,195" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="#FBFBFB">Sentiment Analysis Dashboard</text>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#415A48"/>
+  <rect x="50" y="50" width="700" height="300" fill="#333333" rx="10" ry="10"/>
+  
+  <!-- French Flag Colors -->
+  <rect x="100" y="100" width="100" height="150" fill="#0055A4" opacity="0.8"/>
+  <rect x="200" y="100" width="100" height="150" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="300" y="100" width="100" height="150" fill="#EF4135" opacity="0.8"/>
+  
+  <!-- Telegram Logo -->
+  <circle cx="500" cy="150" r="50" fill="#0088cc" opacity="0.8"/>
+  <path d="M475,150 L485,170 L525,130" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+  
+  <!-- French Vocabulary -->
+  <rect x="150" y="280" width="200" height="30" fill="#A3AB9A" opacity="0.4" rx="5" ry="5"/>
+  <text x="250" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#FBFBFB">parler (to speak)</text>
+  
+  <rect x="450" y="280" width="200" height="30" fill="#A3AB9A" opacity="0.4" rx="5" ry="5"/>
+  <text x="550" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#FBFBFB">apprendre (to learn)</text>
+  
+  <!-- Quiz Element -->
+  <rect x="600" y="120" width="120" height="120" fill="#D4C281" opacity="0.3" rx="10" ry="10"/>
+  <text x="660" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#FBFBFB">QUIZ</text>
+  <text x="660" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#FBFBFB">Q: Je ___ français</text>
+  <text x="660" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#FBFBFB">A) parle</text>
+  <text x="660" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#FBFBFB">B) parles</text>
+  
+  <text x="400" y="350" font-family="Arial" font-size="24" text-anchor="middle" fill="#FBFBFB">French Learning Bot</text>
+</svg>

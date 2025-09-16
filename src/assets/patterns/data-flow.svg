@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="dataGradient">
+            <stop stop-color="#9C27B0" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#00BCD4" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.12">
+        <!-- Data Flow Lines -->
+        <path d="M100,100 C250,150 350,50 500,150 C650,250 700,350 750,400" stroke="url(#dataGradient)" stroke-width="2"></path>
+        <path d="M50,200 C200,250 300,150 450,250 C600,350 650,450 700,500" stroke="url(#dataGradient)" stroke-width="2"></path>
+        <path d="M150,300 C300,350 400,250 550,350 C700,450 750,550 800,600" stroke="url(#dataGradient)" stroke-width="2"></path>
+        <path d="M0,400 C150,450 250,350 400,450 C550,550 600,650 650,700" stroke="url(#dataGradient)" stroke-width="2"></path>
+        
+        <!-- Data Points -->
+        <circle fill="#9C27B0" cx="150" cy="120" r="3"></circle>
+        <circle fill="#9C27B0" cx="250" cy="180" r="3"></circle>
+        <circle fill="#00BCD4" cx="350" cy="100" r="3"></circle>
+        <circle fill="#00BCD4" cx="450" cy="200" r="3"></circle>
+        <circle fill="#9C27B0" cx="550" cy="300" r="3"></circle>
+        <circle fill="#9C27B0" cx="650" cy="400" r="3"></circle>
+        
+        <circle fill="#00BCD4" cx="100" cy="220" r="3"></circle>
+        <circle fill="#00BCD4" cx="200" cy="280" r="3"></circle>
+        <circle fill="#9C27B0" cx="300" cy="200" r="3"></circle>
+        <circle fill="#9C27B0" cx="400" cy="300" r="3"></circle>
+        <circle fill="#00BCD4" cx="500" cy="400" r="3"></circle>
+        <circle fill="#00BCD4" cx="600" cy="500" r="3"></circle>
+        
+        <circle fill="#9C27B0" cx="200" cy="320" r="3"></circle>
+        <circle fill="#9C27B0" cx="300" cy="380" r="3"></circle>
+        <circle fill="#00BCD4" cx="400" cy="300" r="3"></circle>
+        <circle fill="#00BCD4" cx="500" cy="400" r="3"></circle>
+        <circle fill="#9C27B0" cx="600" cy="500" r="3"></circle>
+        <circle fill="#9C27B0" cx="700" cy="600" r="3"></circle>
+        
+        <circle fill="#00BCD4" cx="50" cy="420" r="3"></circle>
+        <circle fill="#00BCD4" cx="150" cy="480" r="3"></circle>
+        <circle fill="#9C27B0" cx="250" cy="400" r="3"></circle>
+        <circle fill="#9C27B0" cx="350" cy="500" r="3"></circle>
+        <circle fill="#00BCD4" cx="450" cy="600" r="3"></circle>
+        <circle fill="#00BCD4" cx="550" cy="700" r="3"></circle>
+    </g>
+</svg>

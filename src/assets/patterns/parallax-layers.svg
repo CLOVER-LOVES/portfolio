@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Layer 1: Background Grid (Slowest Movement) -->
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.05" class="parallax-layer-1">
+        <!-- Horizontal Grid Lines -->
+        <path d="M0,100 L800,100" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M0,200 L800,200" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M0,300 L800,300" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M0,400 L800,400" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M0,500 L800,500" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M0,600 L800,600" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M0,700 L800,700" stroke="#77A664" stroke-width="0.5"></path>
+        
+        <!-- Vertical Grid Lines -->
+        <path d="M100,0 L100,800" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M200,0 L200,800" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M300,0 L300,800" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M400,0 L400,800" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M500,0 L500,800" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M600,0 L600,800" stroke="#77A664" stroke-width="0.5"></path>
+        <path d="M700,0 L700,800" stroke="#77A664" stroke-width="0.5"></path>
+    </g>
+    
+    <!-- Layer 2: Medium Elements (Medium Movement) -->
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1" class="parallax-layer-2">
+        <!-- Circles -->
+        <circle fill="#77A664" cx="150" cy="150" r="30" opacity="0.2"></circle>
+        <circle fill="#77A664" cx="650" cy="250" r="40" opacity="0.2"></circle>
+        <circle fill="#77A664" cx="250" cy="550" r="35" opacity="0.2"></circle>
+        <circle fill="#77A664" cx="550" cy="650" r="25" opacity="0.2"></circle>
+        
+        <!-- Lines -->
+        <path d="M150,150 L650,250" stroke="#77A664" stroke-width="1" opacity="0.3"></path>
+        <path d="M650,250 L250,550" stroke="#77A664" stroke-width="1" opacity="0.3"></path>
+        <path d="M250,550 L550,650" stroke="#77A664" stroke-width="1" opacity="0.3"></path>
+        <path d="M550,650 L150,150" stroke="#77A664" stroke-width="1" opacity="0.3"></path>
+    </g>
+    
+    <!-- Layer 3: Foreground Elements (Fastest Movement) -->
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.15" class="parallax-layer-3">
+        <!-- Data Points -->
+        <circle fill="#D4C281" cx="200" cy="200" r="5"></circle>
+        <circle fill="#D4C281" cx="600" cy="300" r="5"></circle>
+        <circle fill="#D4C281" cx="300" cy="500" r="5"></circle>
+        <circle fill="#D4C281" cx="500" cy="600" r="5"></circle>
+        
+        <!-- Small Decorative Elements -->
+        <rect fill="#D4C281" x="195" y="195" width="10" height="10" transform="rotate(45, 200, 200)"></rect>
+        <rect fill="#D4C281" x="595" y="295" width="10" height="10" transform="rotate(45, 600, 300)"></rect>
+        <rect fill="#D4C281" x="295" y="495" width="10" height="10" transform="rotate(45, 300, 500)"></rect>
+        <rect fill="#D4C281" x="495" y="595" width="10" height="10" transform="rotate(45, 500, 600)"></rect>
+    </g>
+</svg>

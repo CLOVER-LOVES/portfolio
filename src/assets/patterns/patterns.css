@@ -1,0 +1,100 @@
+/* AI/ML Background Patterns */
+
+/* Neural Network Pattern */
+.neural-network-bg {
+  background-image: url('./neural-network.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+/* Data Flow Pattern */
+.data-flow-bg {
+  background-image: url('./data-flow.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+/* Binary Pattern */
+.binary-bg {
+  background-image: url('./binary.svg');
+  background-repeat: repeat;
+  background-size: 800px;
+  background-attachment: fixed;
+}
+
+/* Data Pulse Pattern */
+.data-pulse-bg {
+  background-image: url('./data-pulse.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Combined Patterns */
+.hero-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./binary.svg');
+  background-repeat: repeat;
+  background-size: 800px;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.projects-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.contact-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Responsive adjustments for parallax */
+@media (max-width: 768px) {
+  /* Handled in parallax.css */
+}
+
+/* Animation for data flow */
+@keyframes dataFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-bg {
+  animation: dataFlow 15s ease infinite;
+}
