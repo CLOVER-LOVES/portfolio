@@ -5,7 +5,8 @@ A modern single-page portfolio built with React and Vite to showcase my skills, 
 ## Live Demo
 - Website: [rajpuohitanshu.in](https://rajpurohitanshu.in/)
 
-![Portfolio Preview](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2F4bWJ0YTZsMmw5NnE2MGpwaHplcGJsdW5kNG9wMGUzdGJ0eDlzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JdTkHW1KZPdvdS0/giphy.gif).
+![Portfolio Preview](docs/portfolio-preview.gif).
+
 
 ## Highlights
 - Smooth scrolling, intro overlay, and micro-interactions that keep the experience dynamic.
