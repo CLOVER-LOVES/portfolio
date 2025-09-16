@@ -1,12 +1,56 @@
-# React + Vite
+# Anshul's Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern single-page portfolio built with React and Vite to showcase my skills, featured projects, and ways to connect. The site blends smooth motion effects, glassmorphism-inspired UI, and responsive typography for a polished presentation on any device.
 
-Currently, two official plugins are available:
+## Live Demo
+- Website: [rajpuohitanshu.in](https://rajpurohitanshu.in/)
+![Portfolio Preview](C:\WEB\portfolio\docs\portfolio-preview.gif).
+## Highlights
+- Smooth scrolling, intro overlay, and micro-interactions that keep the experience dynamic.
+- Sections for About, Skills, Projects, Social Media, and Contact so visitors learn everything in one place.
+- Scroll-to-top utility and custom scroll reveal effects for better navigation.
+- Fully responsive layout that looks great on desktops, tablets, and phones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React 18 with Vite build tooling
+- Framer Motion for animations
+- Modern CSS (glass morphism, responsive typography, custom grids, parallax)
+- Deployed on Hostinger (static hosting)
 
-## Expanding the ESLint configuration
+## Project Structure
+```
+src/
+ |- components/      # UI sections and shared widgets
+ |- styles/          # Global styles and animation helpers
+ |- assets/          # Fonts, images, and pattern resources
+ \- App.jsx          # Main application shell
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+```bash
+# install dependencies
+yarn install
+
+# start local dev server
+yarn dev
+
+# build for production
+yarn build
+```
+
+The project also works with npm or pnpm - use the commands you prefer.
+
+## Sections
+- Hero introduction and call-to-action buttons
+- Skills overview with highlighted expertise
+- Projects gallery with descriptions and links
+- Social media showcase for recent posts
+- Contact form for quick reach-outs
+- Footer with navigation shortcuts
+
+## Contact
+If you have feedback, collaboration ideas, or opportunities, feel free to reach out:
+- Email: me@rajpurohitanshu.in
+- LinkedIn: https://www.linkedin.com/in/anshumaan-rajpurohit/
+
+Thanks for visiting the repo - enjoy exploring the code and the live site!
